@@ -1,0 +1,361 @@
+# railway-reservation-system , home page
+
+<!DOCTYPE html>
+<head>
+<title>My Example</title>
+<link rel="stylesheet" href="home.css" />
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <h1><img src="favicon.png" width="100" style="left-margin:20">Railway Reservation System<img src="favicon.png" width="40" ></h1>
+</header/>
+<div class="container-fluid">
+<ul class="nav nav-tabs custom"  role="tablist">
+<li class="nav-item"><a class="nav-link" href="#home" role="tab" data-toggle="tab" ><i class="fa fa-home fa-2x" aria-hidden="true"></a></i></li>
+<li class="nav-item"><a class="nav-link" href="#reservation" role="tab" data-toggle="tab" ><i class="fa fa-book" aria-hidden="true" ></i> Reservation</a></li>
+<li class="nav-item"><a class="nav-link" href="#cancellation" role="tab" data-toggle="tab" ><i class="fa fa-times" aria-hidden="true"></i> Cancellation</a></li>
+<li class="nav-item"><a class="nav-link" href="#pnr" role="tab" data-toggle="tab"><i class="fa fa-ticket" aria-hidden="true"></i> PNR Status</a></li>
+<li class="nav-item"><a class="nav-link" href="#song" role="tab" data-toggle="tab" onclick="song.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Entertainment</a></li>
+<li class="nav-item"><a class="nav-link" href="#feedback" role="tab" data-toggle="tab"><i class="fa fa-comments-o" aria-hidden="true"></i> Feedback</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact"  data-toggle="tab"><i class="fa fa-phone" aria-hidden="true"> Contact Us</a></i></li>
+<!--<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-cubes" aria-hidden="true"> About Us</a></i></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"><i class="fa fa-cubes" aria-hidden="true"></i> About Us</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#vision" role="tab" data-toggle="tab">vision</a>
+<a class="dropdown-item" href="#mission" role="tab"  data-toggle="tab">mission</a>
+<a class="dropdown-item" href="#members" role="tab"  data-toggle="tab">Members</a>
+</div>
+</li>-->
+<li class="nav-item"><a class="nav-link" href="#aboutus"  data-toggle="tab"><i class="fa fa-cubes" aria-hidden="true"> About Us</a></i></li>
+<li class="nav-item"><a class="nav-link" href="#signup" data-toggle="tab"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a></li>
+<li class="nav-item"><a class="nav-link" href="#login"  data-toggle="tab">Login <i class="fa fa-sign-in" aria-hidden="true"></a></i></li>
+</ul>
+
+<div  class="tab-content">
+
+<div role="tabpanel" class="tab-pane fade" id="home" >
+<p>Welcome home! Click on the tabs to see the content change.</p>
+</div>
+<div role="tabpanel" class="tab-pane fade" id="reservation">
+<p>Welcome to online ticket booking.</p>
+</div>
+<div role="tabpanel" class="tab-pane fade" id="cancellation">
+<p>so sad! why u want to cancel  the ticket </p>
+</div>
+<div role="tabpanel" class="tab-pane fade" id="pnr">
+<p>Welcome to PNR Status.</p>
+</div>
+
+<div role="tabpanel" class="tab-pane fade " id="song">
+<h4 style="text-align:center; text-decoration:underline"><i class="fa fa-smile-o" aria-hidden="true"></i>
+Life is like a roller coaster, live it, be happy, enjoy life.<i class="fa fa-smile-o" aria-hidden="true"></i>
+</h4>
+<div class="container">
+<div class="row">
+<div class="col align-self-center custom1"><h3>Songs</h3>
+<strong>HollyWood</strong><br>
+<div class="row">
+<div class="col-md-3">
+  <a href="E:\videos\favourite\english\The Chainsmokers - Closer (Lyric) ft. Halsey.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"></i> The Chainsmokers-Closer
+<video width="250" height="200"><source src="E:\videos\favourite\english\The Chainsmokers - Closer (Lyric) ft. Halsey.mp4" type="video/mp4"></video></a></div>
+<div class="col-md-3">
+  <a href="E:\videos\favourite\english\Enrique.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Enrique</i>
+<video width="250" height="200"><source src="E:\videos\favourite\english\Enrique.mp4" type="video/mp4"></video></a></div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\english\TaylorSwift.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Taylor Swift-Love Story_HIGH</i>
+<video width="250" height="200"><source src="E:\videos\favourite\english\TaylorSwift.mp4" type="video/mp4"></video></a></div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\english\faded (2).mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Faded</i>
+<video width="250" height="200"><source src="E:\videos\favourite\english\faded (2).mp4" type="video/mp4"></video></a></div>
+</div>
+<div class="row">
+<div class="col-md-3">
+  <a href="E:\videos\favourite\english\The Chainsmokers - Don't Let Me Down ft. Daya.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"></i> The Chainsmokers-Don't Let Me Down
+<video width="250" height="200"><source src="E:\videos\favourite\english\The Chainsmokers - Don't Let Me Down ft. Daya.mp4" type="video/mp4">"</video></a></div>
+<div class="col-md-3">
+  <a href="E:\videos\favourite\english\Enrique Iglesias - Bailando (English Version) ft Sean Paul, Descemer Bueno, Gente De Zona.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Enrique Iglesias</i>
+<video width="250" height="200"><source src="E:\videos\favourite\english\Enrique Iglesias - Bailando (English Version) ft Sean Paul, Descemer Bueno, Gente De Zona.mp4" type="video/mp4">"</video></a></div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\english\Shape Of You.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Shape Of You</i>
+<video width="250" height="200"><source src="E:\videos\favourite\english\Shape Of You.mp4" type="video/mp4"></video></a></div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\english\Love Me Like You.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Love Me Like You </i>
+<video width="250" height="200"><source src="E:\videos\favourite\english\Love Me Like You.mp4" type="video/mp4"></video></a></div>
+</div>
+<br><strong>BollyWood</strong><br>
+<div class="row">
+<div class="col-md-3">
+  <a href="D:\html\Html5\raske.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Mere Rashke</i>
+  <video width="250" height="200"><source src="D:\html\Html5\raske.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+    <a href="E:\videos\favourite\Zaroori Tha.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Zarooro Tha</i>
+    <video width="250" height="200"><source src="E:\videos\favourite\Zaroori Tha.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+    <a href="E:\videos\favourite\Channa Mereya.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Channa Mereya</i>
+    <video width="250" height="200"><source src="E:\videos\favourite\Channa Mereya.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\Phir Bhi Tumko Chaahunga.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Phir Bhi Tumko Chaahunga</i>
+<video width="250" height="200"><source src="E:\videos\favourite\Phir Bhi Tumko Chaahunga.mp4" type="video/mp4"></video></a>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<a href="E:\videos\favourite\Humsafar.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Humsafar</i>
+<video width="250" height="200"><source src="E:\videos\favourite\Humsafar.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\Lo Maan Liya.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Lo Maan Liya</i>
+<video width="250" height="200"><source src="E:\videos\favourite\Lo Maan Liya.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+  <a href="E:\videos\favourite\Kabhi Jo Baadal.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Kabhi Jo Baadal</i>
+  <video width="250" height="200"><source src="E:\videos\favourite\Kabhi Jo Baadal.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+     <a href="E:\videos\favourite\Kaun Tujhe.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Kaun Tujhe</i>
+    <video width="250" height="200"><source src="E:\videos\favourite\Kaun Tujhe.mp4" type="video/mp4"></video></a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<a href="E:\videos\favourite\Dard Dilo Ke.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Dard Dilo Ke</i>
+<video width="250" height="200"><source src="E:\videos\favourite\Dard Dilo Ke.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+<a href="E:\videos\favourite\Afreen Afreen.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Afreen Afreen</i>
+<video width="250" height="200"><source src="E:\videos\favourite\Afreen Afreen.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+  <a href="E:\videos\favourite\Hawayein.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Hawayein</i>
+  <video width="250" height="200"><source src="E:\videos\favourite\Hawayein.mp4" type="video/mp4"></video></a>
+</div>
+<div class="col-md-3">
+     <a href="E:\videos\favourite\Sawan Aaya Hai.mp4" class="thumbnail"><i class="fa fa-film" aria-hidden="true"> Sawan Aaya Hai</i>
+    <video width="250" height="200"><source src="E:\videos\favourite\Sawan Aaya Hai.mp4" type="video/mp4"></video></a>
+</div>
+</div>
+
+</div></div></div></div>
+<div role="tabpanel" class="tab-pane fade " id="feedback">
+<p>Please give us feedback.. it's more valuable for us.</p>
+</div>
+<div role="tabpanel" class="tab-pane fade " id="contact">
+<h2 style="text-align:center">Contact Us</h2>
+<div class="container">
+<div class="row">
+<div class="col align-self-center custom1">
+<!--<div class="jumbotron">-->
+<div class="row">
+  <div class="col col-md-3">
+<a href="https://en.wikipedia.org/wiki/WhatsApp" class="thumbnail"><i class="fa fa-whatsapp fa-4x" aria-hidden="true"></i></a>
+<ul><li>+918590210346</li><li>+918714446494</li></ul></div>
+<div class="col-md-3">
+  <a href="https://en.wikipedia.org/wiki/LinkedIn" class="thumbnail"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
+<ul><li>shanikumar1b01b6127</li></ul>
+</div>
+<div class="col-md-3">
+  <a href="https://en.wikipedia.org/wiki/Email" class="thumbnail"><i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
+<ul><li>shani.pathak98@gmail.com</li><li>ashishvermag96@gmail.com</li><li>ctpmukashi@gmail.com</li><li>contact2satishpatna@gmail.com</li></ul>
+</div>
+<div class="col-md-3">
+  <a style="" href="https://en.wikipedia.org/wiki/Facebook" class="thumbnail"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+<ul><li>shanikumar.pathak.7</li> <li>kumar.satish.5602</li><ul></br></br></br></br></br></br></br></br></br></div>
+</div></div></div>
+</div></div>
+<div role="tabpanel" class="tab-pane fade " id="aboutus">
+<div class="container">
+<div class="row">
+<div class="col align-self-center custom1">
+<h3>About Us</h3>
+<p>We all are the B.tech 3rd year <b><a href="https://en.wikipedia.org/wiki/Bachelor_of_Information_Technology">Information Technology</a>
+</b> student of <b><a href="http://cucek.in/">Cochin University College Of Engineering Kuttanad.</a></b><br>
+we would like to thanks <b>Jabir Sir</b> (Assistant Professor) and <b>Agath sir</b> (Assistant Professor) of our department, for there continuous support and help in designing of this website.
+</p>
+<div class="row">
+<div class="col-md-3">
+  <a href="D:\html\skp.jpg" class="thumbnail"><p>Shani Kumar Pathak</p><img src="D:\html\skp.jpg" class="img-circle  img-responsive" alt="love" width="300" height="200" ><p></p></a>
+</div>
+<div class="col-md-3">
+  <a href="C:\Users\user\Downloads\project\verma.jpg" class="thumbnail"><p>Ashish Verma</p><img src="\C:\Users\user\Downloads\project\verma.jpg" class="img-circle  img-responsive" width="210" height="100"></a>
+</div>
+<div class="col-md-3">
+  <a href="C:\Users\user\Downloads\project\ashique.jpg" class="thumbnail"><p>Md Ashique</p><img src="\C:\Users\user\Downloads\project\ashique.jpg" class="img-circle img-responsive"></a>
+</div>
+
+<div class="col-md-3">
+  <a href="C:\Users\user\Downloads\project\satish.jpg" class="thumbnail"><p>Satish Kumar</p><img src="\C:\Users\user\Downloads\project\satish.jpg" class="img-circle img-responsive"width="350" height="100"></a>
+</div>
+</div>
+</div></div></div>
+
+</div>
+<!--<div role="tabpanel" class="tab-pane fade" id="vision">
+<p>vision</p>
+</div>
+<div role="tabpanel" class="tab-pane fade" id="mission">
+<p>mission</p>
+</div>
+<div role="tabpanel" class="tab-pane fade " id="members">
+<p>members</p>
+</div>-->
+<div role="tabpanel" class="tab-pane fade " id="login">
+  <!--<div class="container-grid">
+  <div class="row">
+  <div class="col align-self-center custom1"><div class="jumbotron"><h2 style="text-align:center">Login</h2>
+  <form method="post" style="margin-left:450px" name="myform" onsubmit="validateform()">
+  <div class="form-group row">
+    <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+      <input type="email" class="form-control"placeholder="Enter Email" required>
+    </div>
+  </div>
+    <div class="form-group row">
+      <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+        <input type="password" class="form-control" placeholder="Enter Password" name="password">
+      </div>
+    </div>
+  <div class="form-group row">
+    <button class="btn btn-primary" style="margin-left:380">Login</button>
+  </div>
+</form></div></div></div>-->
+<div class="container">
+<div class="row" style="margin:50">
+  <div class="col-md-6 offset-md-3 custom3" style="margin:200"><h2>Login</h2>
+    <form method="post" name="myform" style="margin-left:100"onsubmit="validateform()">
+    <div class="form-group row">
+      <div class="input-group col-sm-8"><span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+        <input type="email" class="form-control"placeholder="Enter Email" required>
+      </div>
+    </div>
+      <div class="form-group row">
+        <div class="input-group col-sm-8"><span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+          <input type="password" class="form-control" placeholder="Enter Password" name="password">
+        </div>
+      </div>
+    <div class="form-group row">
+      <button class="btn btn-primary" style="margin-left:100">Login</button>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane fade " id="signup">
+<p>Welcome! please fill up the necessary details  </p>
+<div class="container">
+<div class="row">
+<div class="col align-self-center custom2"><h3>Sign Up</h3><br><br>
+<form method="post" style="margin-left:370px" name="myform" onsubmit="validateform()">
+  <div class="form-group row">
+    <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+      <input type="text" class="form-control" placeholder="Enter First Name" required>
+    </div>
+  </div>
+  <div class="form-group row">
+       <div class=" input-group col-sm-6"><span class="input-group-addon"><i class="fa" aria-hidden="true"></i></span>
+         <input type="text" class="form-control" placeholder="Enter Last Name">
+       </div>
+     </div>
+  <div class="form-group row">
+       <!--<label class="col-sm-2 col-form-label">First Name:</label> -->
+       <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+         <input type="email" class="form-control"placeholder="Enter Email" required>
+       </div>
+     </div>
+     <div class="form-group row">
+       <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+         <input type="password" class="form-control" placeholder="Enter Password" name="password">
+       </div>
+     </div>
+     <div class="form-group row">
+       <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+         <input type="password" class="form-control" placeholder="Confirm Password" name="cpassword">
+       </div>
+     </div>
+            <div class="form-group row">
+                <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                  <input type="number" class="form-control" placeholder="Enter Contact No" name="cn1" required>
+                </div>
+              </div>
+            <div class="form-group row">
+                       <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
+                         <input type="date" class="form-control">
+                       </div>
+                     </div>
+    <div class="form-group row">
+      <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+     <textarea placeholder="Enter Address" rows="4" cols="43"></textarea>
+     </div>
+   </div>
+   <div class="form-group row">
+      <div class="input-group col-sm-6"><span class="input-group-addon"><i class="icon-pushpin"></i></span>
+           <input class="form-control" type="number" placeholder="Enter Pin" name="pin" required>
+       </div>
+     </div>
+     <div class="form-group row ">
+       <div class="col-sm-6">
+       <select class="form-control" id="city" placeholder="City">
+         <!--<option>city</option>-->
+          <option>Kochi</option>
+          <option>Patna</option>
+          <option>Lucknow</option>
+          <option>Mumbai</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="input-group col-sm-6"><span class="input-group-addon"><i class="fa fa-flag" aria-hidden="true"></i></span>
+    <input class="form-control" text="text" value="India" name="country">
+  </div>
+</div>
+   <div class="form-group row">
+        <div class="col-sm-1"><input class="form-control" type="radio" name="gender">Male</div>
+        <div class="col-sm-1"><input class="form-control" type="radio"  name="gender">Female</div>
+</div>
+<div class="form-group row">
+  <div class="input-group col-sm-12"><span class="input-group-addon"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+<input class="form-control-file" type="file"  name="image">
+</div>
+</div>
+<div class="form-group row">
+  <div class="col-sm-3">
+<button class="btn btn-success">Submit</button></div>
+<div class="col-sm-4">
+<button class="btn btn-default">Reset</button></div>
+</div>
+</div></div>
+</form></div></div>
+
+
+</div></div>
+<footer class="foot">
+<div class="container">
+<div class="row"><h3><i class="fa fa-train fa-2x" aria-hidden="true"> Railway Reservation System</h3></i>
+</div>
+<div class=" bottom-footer">
+    <div class="col-md-7">
+    <ul class="footer-nav">
+      <li><a href="#">Home </a></li>
+      <li><a href="#">Blog </a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Terms and condtions </a></li>
+      <li><a href="#">contact </a></li>
+      <li><a href="#">Links</a></li>
+   </ul>
+</div>
+<div class="col-md-3"><i class="fa fa-copyright" aria-hidden="true"></i> copyright 2017-2018</div>
+</div>
+</div></footer>
+</body>
+</html>
